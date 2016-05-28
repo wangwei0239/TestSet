@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TestSet.iml" filepath="$PROJECT_DIR$/TestSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestTouchConflict/TestTouchConflict.iml" filepath="$PROJECT_DIR$/TestTouchConflict/TestTouchConflict.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test5.0/test5.0.iml" filepath="$PROJECT_DIR$/test5.0/test5.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testalarmmanager/testalarmmanager.iml" filepath="$PROJECT_DIR$/testalarmmanager/testalarmmanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testbinder/testbinder.iml" filepath="$PROJECT_DIR$/testbinder/testbinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testrecyclerview/testrecyclerview.iml" filepath="$PROJECT_DIR$/testrecyclerview/testrecyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testshowkeyboard/testshowkeyboard.iml" filepath="$PROJECT_DIR$/testshowkeyboard/testshowkeyboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testtime/testtime.iml" filepath="$PROJECT_DIR$/testtime/testtime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/voicedetect/voicedetect.iml" filepath="$PROJECT_DIR$/voicedetect/voicedetect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wechatvoice/wechatvoice.iml" filepath="$PROJECT_DIR$/wechatvoice/wechatvoice.iml" />
+    </modules>
+  </component>
+</project>

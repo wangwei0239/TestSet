@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:minHeight="15dp"
+        android:padding="15dp"
+        android:background="#e3e3e3" >
+
+    </ListView>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#b3b3b3" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp" >
+
+        <com.example.wangwei.wechatvoice.RecordBtn
+            android:id="@+id/recordBtn1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_bg"
+            android:gravity="center"
+            android:text="按住 说话"
+            android:textColor="#5d5d5d" />
+
+    </FrameLayout>
+
+</LinearLayout>

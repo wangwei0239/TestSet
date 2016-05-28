@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.wangwei.testset.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="700dp">
+
+        <ListView
+            android:id="@+id/ls"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"></ListView>
+
+
+        <TextView
+            android:layout_below="@+id/ls"
+            android:text="Text view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+
+
+
+</ScrollView>
