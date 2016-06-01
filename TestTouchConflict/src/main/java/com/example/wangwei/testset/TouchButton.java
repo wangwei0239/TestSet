@@ -4,6 +4,7 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
+import android.view.TouchDelegate;
 import android.view.View;
 import android.widget.Button;
 
@@ -32,23 +33,29 @@ public class TouchButton extends Button{
                 return false;
             }
         });
-//        super.setOnTouchListener(new OnTouchListener() {
-//            @Override
-//            public boolean onTouch(View v, MotionEvent event) {
-//                switch (event.getAction()){
-//                    case MotionEvent.ACTION_DOWN:
-//                        Log.i(TAG,"super down");
-//                        break;
-//                    case MotionEvent.ACTION_MOVE:
-//                        Log.i(TAG, "suprer move");
-//                        break;
-//                    case MotionEvent.ACTION_UP:
-//                        Log.i(TAG, "super up");
-//                        break;
-//                }
-//                return false;
-//            }
-//        });
+        super.setOnTouchListener(new OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                switch (event.getAction()){
+                    case MotionEvent.ACTION_DOWN:
+                        Log.i(TAG,"super down");
+                        break;
+                    case MotionEvent.ACTION_MOVE:
+                        Log.i(TAG, "suprer move");
+                        break;
+                    case MotionEvent.ACTION_UP:
+                        Log.i(TAG, "super up");
+                        break;
+                }
+                return false;
+            }
+        });
+
+    }
+
+    @Override
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
     }
 
     @Override
@@ -73,4 +80,12 @@ public class TouchButton extends Button{
         Log.i(TAG, "super result al:"+result);
         return result;
     }
+
+
+//    @Override
+//    public boolean dispatchTouchEvent(MotionEvent event) {
+//        boolean result = super.dispatchTouchEvent(event);
+//        Log.i(TAG, "dispatchTouchEvent: return:"+result);
+//        return result;
+//    }
 }

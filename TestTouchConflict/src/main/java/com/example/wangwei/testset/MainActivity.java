@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        sv = (ScrollView) findViewById(R.id.sv);
+        sv = (ScrollView) findViewById(R.id.sv);
         ls = (ListView) findViewById(R.id.ls);
         rl = (RelativeLayout) findViewById(R.id.rl);
         list = new ArrayList<>();
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         list.add("haha123");
         adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,list);
         ls.setAdapter(adapter);
-        ls.setSelection(adapter.getCount() - 1);
+//        ls.setSelection(adapter.getCount() - 1);
         ls.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
@@ -69,7 +69,8 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
-//        rl.requestDisallowInterceptTouchEvent(true);
+
+        rl.requestDisallowInterceptTouchEvent(true);
 //        sv.requestDisallowInterceptTouchEvent(true);
 //        ls.requestDisallowInterceptTouchEvent(true);
     }

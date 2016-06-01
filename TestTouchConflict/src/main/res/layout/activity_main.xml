@@ -7,15 +7,15 @@
     android:fillViewport="true"
     tools:context="com.example.wangwei.testset.MainActivity">
 
-    <RelativeLayout
+    <com.example.wangwei.testset.MyRelative
         android:id="@+id/rl"
         android:layout_width="match_parent"
         android:layout_height="700dp">
 
-        <ListView
+        <com.example.wangwei.testset.MyListView
             android:id="@+id/ls"
             android:layout_width="match_parent"
-            android:layout_height="300dp"></ListView>
+            android:layout_height="300dp"></com.example.wangwei.testset.MyListView>
 
 
         <TextView
@@ -32,7 +32,7 @@
             android:gravity="center"
             android:text="TestButton"/>
 
-    </RelativeLayout>
+    </com.example.wangwei.testset.MyRelative>
 
 
 
