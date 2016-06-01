@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.wangwei.testcustomview.MainActivity">
+
     <com.example.wangwei.testcustomview.CustomView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -11,6 +12,8 @@
     <TextView
         android:id="@+id/tv"
         android:text="haha"
-        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:background="@drawable/td"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 </RelativeLayout>

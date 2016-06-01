@@ -1,9 +1,12 @@
 package com.example.wangwei.testcustomview;
 
+import android.graphics.drawable.TransitionDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -16,16 +19,22 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tv = (TextView) findViewById(R.id.tv);
+
         int widthSpec = View.MeasureSpec.makeMeasureSpec((1<<30)-1, View.MeasureSpec.AT_MOST);
         int heightSpec = View.MeasureSpec.makeMeasureSpec((1<<30)-1, View.MeasureSpec.AT_MOST);
         tv.measure(widthSpec,heightSpec);
         Log.i(TAG, "onCreate: tv width="+tv.getMeasuredWidth()+" height="+tv.getMeasuredHeight());
-//        tv.post(new Runnable() {
-//            @Override
-//            public void run() {
-//                Log.i(TAG, "onCreate: tv width="+tv.getMeasuredWidth()+" height="+tv.getMeasuredHeight());
-//            }
-//        });
+        tv.measure(0,0);
+        Log.i(TAG, "onCreate2: tv width="+tv.getMeasuredWidth()+" height="+tv.getMeasuredHeight());
+        tv.post(new Runnable() {
+            @Override
+            public void run() {
+                Log.i(TAG, "onCreate3: tv width="+tv.getMeasuredWidth()+" height="+tv.getMeasuredHeight());
+            }
+        });
+
+        TransitionDrawable td = (TransitionDrawable) tv.getBackground();
+        td.startTransition(3000);
     }
 
     @Override

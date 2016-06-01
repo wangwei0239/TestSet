@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/testalarmmanager/testalarmmanager.iml" filepath="$PROJECT_DIR$/testalarmmanager/testalarmmanager.iml" />
       <module fileurl="file://$PROJECT_DIR$/testbinder/testbinder.iml" filepath="$PROJECT_DIR$/testbinder/testbinder.iml" />
       <module fileurl="file://$PROJECT_DIR$/testcustomview/testcustomview.iml" filepath="$PROJECT_DIR$/testcustomview/testcustomview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testheadphoneplugin/testheadphoneplugin.iml" filepath="$PROJECT_DIR$/testheadphoneplugin/testheadphoneplugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/testrecyclerview/testrecyclerview.iml" filepath="$PROJECT_DIR$/testrecyclerview/testrecyclerview.iml" />
       <module fileurl="file://$PROJECT_DIR$/testshowkeyboard/testshowkeyboard.iml" filepath="$PROJECT_DIR$/testshowkeyboard/testshowkeyboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/testtime/testtime.iml" filepath="$PROJECT_DIR$/testtime/testtime.iml" />
