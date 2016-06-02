@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.3"
 
     defaultConfig {
-        applicationId "com.example.wangwei.testvoiceinteractive"
+        applicationId "com.example.wangwei.voiceinteractive"
         minSdkVersion 19
         targetSdkVersion 23
         versionCode 1

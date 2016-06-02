@@ -1,4 +1,4 @@
-package com.example.wangwei.testvoiceinteractive;
+package com.example.wangwei.voiceinteractive;
 
 import org.junit.Test;
 

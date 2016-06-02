@@ -1,4 +1,4 @@
-package com.example.wangwei.testvoiceinteractive;
+package com.example.wangwei.voiceinteractive;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -12,8 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/testrecyclerview/testrecyclerview.iml" filepath="$PROJECT_DIR$/testrecyclerview/testrecyclerview.iml" />
       <module fileurl="file://$PROJECT_DIR$/testshowkeyboard/testshowkeyboard.iml" filepath="$PROJECT_DIR$/testshowkeyboard/testshowkeyboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/testtime/testtime.iml" filepath="$PROJECT_DIR$/testtime/testtime.iml" />
-      <module fileurl="file://$PROJECT_DIR$/testvoiceinteractive/testvoiceinteractive.iml" filepath="$PROJECT_DIR$/testvoiceinteractive/testvoiceinteractive.iml" />
       <module fileurl="file://$PROJECT_DIR$/voicedetect/voicedetect.iml" filepath="$PROJECT_DIR$/voicedetect/voicedetect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/voiceinteractive/voiceinteractive.iml" filepath="$PROJECT_DIR$/voiceinteractive/voiceinteractive.iml" />
       <module fileurl="file://$PROJECT_DIR$/wechatvoice/wechatvoice.iml" filepath="$PROJECT_DIR$/wechatvoice/wechatvoice.iml" />
     </modules>
   </component>

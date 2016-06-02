@@ -1,1 +1,1 @@
-include ':TestTouchConflict', ':testalarmmanager', ':testtime', ':test5.0', ':testrecyclerview', ':voicedetect', ':testbinder', ':testshowkeyboard', ':wechatvoice', ':testcustomview', ':testheadphoneplugin', ':testvoiceinteractive'
+include ':TestTouchConflict', ':testalarmmanager', ':testtime', ':test5.0', ':testrecyclerview', ':voicedetect', ':testbinder', ':testshowkeyboard', ':wechatvoice', ':testcustomview', ':testheadphoneplugin', ':voiceinteractive'
