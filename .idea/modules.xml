@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/testtime/testtime.iml" filepath="$PROJECT_DIR$/testtime/testtime.iml" />
       <module fileurl="file://$PROJECT_DIR$/voicedetect/voicedetect.iml" filepath="$PROJECT_DIR$/voicedetect/voicedetect.iml" />
       <module fileurl="file://$PROJECT_DIR$/voiceinteractive/voiceinteractive.iml" filepath="$PROJECT_DIR$/voiceinteractive/voiceinteractive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/voiceinteractive2/voiceinteractive2.iml" filepath="$PROJECT_DIR$/voiceinteractive2/voiceinteractive2.iml" />
       <module fileurl="file://$PROJECT_DIR$/wechatvoice/wechatvoice.iml" filepath="$PROJECT_DIR$/wechatvoice/wechatvoice.iml" />
     </modules>
   </component>
