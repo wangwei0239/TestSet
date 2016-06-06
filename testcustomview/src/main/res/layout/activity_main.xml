@@ -5,15 +5,17 @@
     android:layout_height="match_parent"
     tools:context="com.example.wangwei.testcustomview.MainActivity">
 
-    <com.example.wangwei.testcustomview.CustomView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@android:color/holo_blue_bright"/>
     <TextView
         android:id="@+id/tv"
         android:text="haha"
         android:padding="10dp"
         android:background="@drawable/td"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btn"
+        android:text="btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 </RelativeLayout>
