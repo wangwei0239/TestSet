@@ -4,12 +4,15 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TestSet.iml" filepath="$PROJECT_DIR$/TestSet.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestTouchConflict/TestTouchConflict.iml" filepath="$PROJECT_DIR$/TestTouchConflict/TestTouchConflict.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageprocess/imageprocess.iml" filepath="$PROJECT_DIR$/imageprocess/imageprocess.iml" />
       <module fileurl="file://$PROJECT_DIR$/test5.0/test5.0.iml" filepath="$PROJECT_DIR$/test5.0/test5.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/testalarmmanager/testalarmmanager.iml" filepath="$PROJECT_DIR$/testalarmmanager/testalarmmanager.iml" />
       <module fileurl="file://$PROJECT_DIR$/testbinder/testbinder.iml" filepath="$PROJECT_DIR$/testbinder/testbinder.iml" />
       <module fileurl="file://$PROJECT_DIR$/testcustomview/testcustomview.iml" filepath="$PROJECT_DIR$/testcustomview/testcustomview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testdb/testdb.iml" filepath="$PROJECT_DIR$/testdb/testdb.iml" />
       <module fileurl="file://$PROJECT_DIR$/testheadphoneplugin/testheadphoneplugin.iml" filepath="$PROJECT_DIR$/testheadphoneplugin/testheadphoneplugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/testmessager/testmessager.iml" filepath="$PROJECT_DIR$/testmessager/testmessager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testnewcamera/testnewcamera.iml" filepath="$PROJECT_DIR$/testnewcamera/testnewcamera.iml" />
       <module fileurl="file://$PROJECT_DIR$/testrecyclerview/testrecyclerview.iml" filepath="$PROJECT_DIR$/testrecyclerview/testrecyclerview.iml" />
       <module fileurl="file://$PROJECT_DIR$/testshowkeyboard/testshowkeyboard.iml" filepath="$PROJECT_DIR$/testshowkeyboard/testshowkeyboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/testtime/testtime.iml" filepath="$PROJECT_DIR$/testtime/testtime.iml" />

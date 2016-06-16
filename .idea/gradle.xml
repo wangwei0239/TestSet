@@ -10,12 +10,15 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/TestTouchConflict" />
+            <option value="$PROJECT_DIR$/imageprocess" />
             <option value="$PROJECT_DIR$/test5.0" />
             <option value="$PROJECT_DIR$/testalarmmanager" />
             <option value="$PROJECT_DIR$/testbinder" />
             <option value="$PROJECT_DIR$/testcustomview" />
+            <option value="$PROJECT_DIR$/testdb" />
             <option value="$PROJECT_DIR$/testheadphoneplugin" />
             <option value="$PROJECT_DIR$/testmessager" />
+            <option value="$PROJECT_DIR$/testnewcamera" />
             <option value="$PROJECT_DIR$/testrecyclerview" />
             <option value="$PROJECT_DIR$/testshowkeyboard" />
             <option value="$PROJECT_DIR$/testtime" />
@@ -29,12 +32,15 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/TestTouchConflict" />
+            <option value="$PROJECT_DIR$/imageprocess" />
             <option value="$PROJECT_DIR$/test5.0" />
             <option value="$PROJECT_DIR$/testalarmmanager" />
             <option value="$PROJECT_DIR$/testbinder" />
             <option value="$PROJECT_DIR$/testcustomview" />
+            <option value="$PROJECT_DIR$/testdb" />
             <option value="$PROJECT_DIR$/testheadphoneplugin" />
             <option value="$PROJECT_DIR$/testmessager" />
+            <option value="$PROJECT_DIR$/testnewcamera" />
             <option value="$PROJECT_DIR$/testrecyclerview" />
             <option value="$PROJECT_DIR$/testshowkeyboard" />
             <option value="$PROJECT_DIR$/testtime" />
