@@ -1,92 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_clock">
 
     <LinearLayout
         android:layout_marginTop="40dp"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:gravity="center"
-        android:orientation="horizontal">
+        android:layout_height="wrap_content"
+        android:paddingRight="30dp"
+        android:gravity="right"
+        android:orientation="vertical">
+        <TextView
+            android:textSize="90sp"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="08:45" />
+
         <TextView
             android:textSize="20sp"
+            android:textColor="@android:color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="6月24日"/>
-        <View
-            android:layout_width="20dp"
-            android:layout_height="wrap_content"/>
+            android:text="6月28日"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#191970"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
         <TextView
-            android:textSize="30sp"
+            android:text="沪A：832399"
+            android:textColor="@android:color/white"
+            android:textSize="45sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="08:45"/>
+            android:text="周师傅：13692839485"/>
+
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="取消"
+                android:textSize="35sp"
+                android:textColor="@android:color/holo_blue_bright"
+                android:background="@null"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+
+            <Button
+                android:textSize="30sp"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="乘车"
+                android:background="@drawable/bg_btn"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+
     </LinearLayout>
 
     <TextView
+        android:layout_marginTop="30dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#d3d3d3"
+        android:background="@drawable/bg_notif"
+        android:textColor="@android:color/white"
         android:paddingLeft="20dp"
         android:paddingTop="25dp"
         android:paddingBottom="25dp"
         android:textSize="20dp"
         android:text="你起得晚，外面还在下雨，\n小影已经帮你脚好了车了"/>
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:gravity="center"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#d3d3d3"
-        android:paddingLeft="20dp"
-        android:paddingTop="20dp"
-        android:paddingBottom="20dp">
-        <TextView
-            android:text="沪A：832399"
-            android:textSize="35sp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:layout_marginTop="10dp"
-            android:textSize="17sp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="周师傅：13692839485"/>
 
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_marginTop="40dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center">
-
-
-        <Button
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:text="取消叫车"/>
-
-        <View
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"/>
-
-
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="50dp"
-            android:text="乘车"/>
-    </LinearLayout>
 
 </LinearLayout>

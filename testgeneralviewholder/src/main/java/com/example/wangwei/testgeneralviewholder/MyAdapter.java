@@ -10,7 +10,7 @@ import android.widget.BaseAdapter;
  */
 public class MyAdapter extends BaseAdapter {
 
-    public MyAdapter(Context context, List<People> )
+//    public MyAdapter(Context context, List<People> )
 
     @Override
     public int getCount() {

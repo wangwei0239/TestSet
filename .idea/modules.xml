@@ -18,7 +18,6 @@
       <module fileurl="file://$PROJECT_DIR$/testmessager/testmessager.iml" filepath="$PROJECT_DIR$/testmessager/testmessager.iml" />
       <module fileurl="file://$PROJECT_DIR$/testnewcamera/testnewcamera.iml" filepath="$PROJECT_DIR$/testnewcamera/testnewcamera.iml" />
       <module fileurl="file://$PROJECT_DIR$/testrecyclerview/testrecyclerview.iml" filepath="$PROJECT_DIR$/testrecyclerview/testrecyclerview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/testkeyboard/testshowkeyboard.iml" filepath="$PROJECT_DIR$/testkeyboard/testshowkeyboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/testsoftinputmodel/testsoftinputmodel.iml" filepath="$PROJECT_DIR$/testsoftinputmodel/testsoftinputmodel.iml" />
       <module fileurl="file://$PROJECT_DIR$/testtime/testtime.iml" filepath="$PROJECT_DIR$/testtime/testtime.iml" />
       <module fileurl="file://$PROJECT_DIR$/voicedetect/voicedetect.iml" filepath="$PROJECT_DIR$/voicedetect/voicedetect.iml" />

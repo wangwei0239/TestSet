@@ -1,11 +1,14 @@
 package com.example.wangwei.lockscreendemo;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.PixelFormat;
+import android.provider.MediaStore;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -25,7 +28,7 @@ public class MainActivity extends Activity {
     private View taxiView;
     private int screenWidth = 1080;
     private int screenHeight = 1920;
-    private ViewPager viewPager;
+    private MyViewPager viewPager;
     private List<View> viewList;
     private ImageView picIcon;
 
@@ -36,26 +39,44 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        viewPager = (ViewPager) findViewById(R.id.viewPages);
+        viewPager = (MyViewPager) findViewById(R.id.viewPages);
         viewPager.setOnTouchListener(viewPageListener);
         initViewPage();
         viewPager.setAdapter(pagerAdapter);
+        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+            }
+
+            @Override
+            public void onPageSelected(int position) {
+                if(position == 1)
+                    viewPager.setScrollble(false);
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int state) {
+
+            }
+        });
         wm = (WindowManager) getSystemService(WINDOW_SERVICE);
         view = this.getLayoutInflater().inflate(R.layout.pager_clock_page, null);
         taxiView = getLayoutInflater().inflate(R.layout.pager_taxi,null);
         screenWidth = wm.getDefaultDisplay().getWidth();
         screenHeight = wm.getDefaultDisplay().getHeight();
+        if (taxiParams == null) {
+            taxiParams = initViewParams(taxiParams);
+            taxiParams.flags = taxiParams.flags | WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE;
+            wm.addView(taxiView, taxiParams);
+        }
+
         if (params == null) {
             params = initViewParams(params);
             wm.addView(view, params);
             view.setOnTouchListener(myListener);
         }
 
-        if (taxiParams == null) {
-            taxiParams = initViewParams(taxiParams);
-            taxiParams.height = 600;
-//            wm.addView(taxiView, taxiParams);
-        }
+
 
 
     }
@@ -110,6 +131,7 @@ public class MainActivity extends Activity {
 
             switch (event.getAction()) {
                 case MotionEvent.ACTION_DOWN:
+                    taxiView.layout(0,-screenHeight,screenWidth,0);
                     startX = (int) event.getRawX();
                     break;
                 case MotionEvent.ACTION_MOVE:
@@ -149,26 +171,79 @@ public class MainActivity extends Activity {
                     viewPageStartX = (int) event.getRawX();
                     break;
                 case MotionEvent.ACTION_MOVE:
-                    int endY = (int) event.getRawY();
-                    int dy = endY - viewPageStartY;
+                    if(viewPager.getCurrentItem() == 1){
+                        int endY = (int) event.getRawY();
+                        int dy = endY - viewPageStartY;
 
-                    if(dy < 0){
-                        viewPager.layout(viewPager.getLeft(), viewPager.getTop() + dy, viewPager.getRight(), viewPager.getBottom() + dy);
-                    }else {
-                        WindowManager.LayoutParams params = (WindowManager.LayoutParams) taxiView.getLayoutParams();
-//                    params.height = endY;
-//                    System.out.println(params.height);
-//                    taxiView.setLayoutParams(params);
-                        taxiView.layout(taxiView.getLeft(),0, taxiView.getRight(), dy);
+                        if(dy < 0){
+                            if(taxiView.getBottom() <=0 ){
+                                viewPager.layout(viewPager.getLeft(), viewPager.getTop() + dy, viewPager.getRight(), viewPager.getBottom() + dy);
+                            }else {
+                                int bottomValue = taxiView.getBottom() + dy;
+                                if(taxiView.getBottom() + dy <= 0){
+                                    bottomValue = 0;
+                                }
+                                taxiView.layout(0,taxiView.getTop() + dy,screenWidth,bottomValue);
+                            }
+
+                        }else {
+                            if(viewPager.getTop() < 0){
+                                int topValue = viewPager.getTop() + dy;
+                                if((viewPager.getTop() + dy) >= 0 ){
+                                    topValue = 0;
+                                }
+                                viewPager.layout(viewPager.getLeft(), topValue, viewPager.getRight(), viewPager.getBottom() + dy);
+                            }else {
+                                System.out.println(dy);
+                                taxiView.layout(0,taxiView.getTop() + dy,screenWidth,taxiView.getBottom() + dy);
+                            }
+                        }
                         viewPageStartY = endY;
                     }
 
 
+
                     break;
                 case MotionEvent.ACTION_UP:
+                    if(taxiView.getBottom() < viewPager.getMeasuredHeight()/3){
+                        taxiView.layout(0,-screenHeight,screenWidth,0);
+                    }else {
+                        taxiView.layout(0,0,screenWidth,screenHeight);
+                    }
+
+
+                    if(viewPager.getBottom() < viewPager.getMeasuredHeight()/2){
+                        viewPager.layout(viewPager.getLeft(), -viewPager.getMeasuredHeight(), viewPager.getRight(), 0);
+                        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                        startActivityForResult(intent, 1);
+                        wm.removeView(taxiView);
+                    }else {
+                        viewPager.layout(viewPager.getLeft(),0, viewPager.getRight(), viewPager.getMeasuredHeight());
+
+                    }
+
+
+
                     break;
             }
             return false;
         }
     };
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        viewPager.layout(viewPager.getLeft(),0, viewPager.getRight(), viewPager.getMeasuredHeight());
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        System.out.println("onresult");
+        if(resultCode == Activity.RESULT_OK){
+            Intent intent = new Intent(this,PicResultActivity.class);
+            intent.putExtra("pic",data.getExtras());
+            startActivity(intent);
+        }
+    }
 }

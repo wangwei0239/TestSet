@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_clock">
 
     <ImageView
         android:layout_above="@+id/centerView"
@@ -22,7 +23,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="8:00"
-        android:textSize="30sp"/>
+        android:textColor="@android:color/white"
+        android:textSize="90sp"/>
 
     <TextView
         android:layout_alignParentBottom="true"
