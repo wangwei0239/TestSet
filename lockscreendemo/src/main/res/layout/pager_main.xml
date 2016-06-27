@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/weather_pic"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:id="@+id/date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6月24日"
+            android:layout_below="@+id/weather_pic"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/weather_text"
+            android:text="小雨"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/weather_pic"/>
+        <TextView
+            android:id="@+id/tmp_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25度"
+            android:layout_alignLeft="@id/weather_text"
+            android:layout_below="@id/weather_text"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/time_text"
+            android:layout_alignBottom="@id/date_text"
+            android:text="08:30"
+            android:layout_alignLeft="@id/weather_text"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <RelativeLayout
+            android:background="#d3d3d3"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <TextView
+                android:layout_toLeftOf="@+id/event_time"
+                android:layout_width="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:text="你最爱的宋仲基来了，而且你会直接见到他，太羡慕你了！"/>
+            <TextView
+                android:id="@+id/event_time"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:text="9:00"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@mipmap/ic_launcher"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <RelativeLayout
+            android:background="#d3d3d3"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <TextView
+                android:layout_toLeftOf="@+id/event_time2"
+                android:layout_width="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:text="你最爱的宋仲基来了，而且你会直接见到他，太羡慕你了！"/>
+            <TextView
+                android:id="@+id/event_time2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:text="9:00"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@mipmap/ic_launcher"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/pic_icon"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/pic_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="出门前，看看我今天的穿衣指数"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
