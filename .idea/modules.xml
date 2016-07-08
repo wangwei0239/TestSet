@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/imageprocess/imageprocess.iml" filepath="$PROJECT_DIR$/imageprocess/imageprocess.iml" />
       <module fileurl="file://$PROJECT_DIR$/lockscreendemo/lockscreendemo.iml" filepath="$PROJECT_DIR$/lockscreendemo/lockscreendemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/test5.0/test5.0.iml" filepath="$PROJECT_DIR$/test5.0/test5.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test6.0/test6.0.iml" filepath="$PROJECT_DIR$/test6.0/test6.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/testalarmmanager/testalarmmanager.iml" filepath="$PROJECT_DIR$/testalarmmanager/testalarmmanager.iml" />
       <module fileurl="file://$PROJECT_DIR$/testbinder/testbinder.iml" filepath="$PROJECT_DIR$/testbinder/testbinder.iml" />
       <module fileurl="file://$PROJECT_DIR$/testcustomview/testcustomview.iml" filepath="$PROJECT_DIR$/testcustomview/testcustomview.iml" />
@@ -14,12 +15,17 @@
       <module fileurl="file://$PROJECT_DIR$/testfragement/testfragement.iml" filepath="$PROJECT_DIR$/testfragement/testfragement.iml" />
       <module fileurl="file://$PROJECT_DIR$/testgeneralviewholder/testgeneralviewholder.iml" filepath="$PROJECT_DIR$/testgeneralviewholder/testgeneralviewholder.iml" />
       <module fileurl="file://$PROJECT_DIR$/testheadphoneplugin/testheadphoneplugin.iml" filepath="$PROJECT_DIR$/testheadphoneplugin/testheadphoneplugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testifly/testifly.iml" filepath="$PROJECT_DIR$/testifly/testifly.iml" />
       <module fileurl="file://$PROJECT_DIR$/testkeyboard/testkeyboard.iml" filepath="$PROJECT_DIR$/testkeyboard/testkeyboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/testmessager/testmessager.iml" filepath="$PROJECT_DIR$/testmessager/testmessager.iml" />
       <module fileurl="file://$PROJECT_DIR$/testnewcamera/testnewcamera.iml" filepath="$PROJECT_DIR$/testnewcamera/testnewcamera.iml" />
       <module fileurl="file://$PROJECT_DIR$/testrecyclerview/testrecyclerview.iml" filepath="$PROJECT_DIR$/testrecyclerview/testrecyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testscrollbyto/testscrollbyto.iml" filepath="$PROJECT_DIR$/testscrollbyto/testscrollbyto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testkeyboard/testshowkeyboard.iml" filepath="$PROJECT_DIR$/testkeyboard/testshowkeyboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/testsoftinputmodel/testsoftinputmodel.iml" filepath="$PROJECT_DIR$/testsoftinputmodel/testsoftinputmodel.iml" />
       <module fileurl="file://$PROJECT_DIR$/testtime/testtime.iml" filepath="$PROJECT_DIR$/testtime/testtime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testtouchconflict2/testtouchconflict2.iml" filepath="$PROJECT_DIR$/testtouchconflict2/testtouchconflict2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testvoice/testvoice.iml" filepath="$PROJECT_DIR$/testvoice/testvoice.iml" />
       <module fileurl="file://$PROJECT_DIR$/voicedetect/voicedetect.iml" filepath="$PROJECT_DIR$/voicedetect/voicedetect.iml" />
       <module fileurl="file://$PROJECT_DIR$/voiceinteractive/voiceinteractive.iml" filepath="$PROJECT_DIR$/voiceinteractive/voiceinteractive.iml" />
       <module fileurl="file://$PROJECT_DIR$/voiceinteractive2/voiceinteractive2.iml" filepath="$PROJECT_DIR$/voiceinteractive2/voiceinteractive2.iml" />

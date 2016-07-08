@@ -3,6 +3,7 @@ package com.example.wangwei.lockscreendemo;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.PixelFormat;
+import android.net.Uri;
 import android.provider.MediaStore;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -14,6 +15,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.ImageView;
+
+import com.facebook.drawee.backends.pipeline.Fresco;
+import com.facebook.drawee.interfaces.DraweeController;
+import com.facebook.drawee.view.SimpleDraweeView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,6 +36,7 @@ public class MainActivity extends Activity {
     private MyViewPager viewPager;
     private List<View> viewList;
     private ImageView picIcon;
+//    private SimpleDraweeView clockView;
 
     private View clockResult;
     private View mainPage;
@@ -61,6 +67,8 @@ public class MainActivity extends Activity {
         });
         wm = (WindowManager) getSystemService(WINDOW_SERVICE);
         view = this.getLayoutInflater().inflate(R.layout.pager_clock_page, null);
+//        clockView = (SimpleDraweeView) view.findViewById(R.id.clockView);
+//        clockView.setController(buildController(R.drawable.bg_clock_view,clockView.getController()));
         taxiView = getLayoutInflater().inflate(R.layout.pager_taxi,null);
         screenWidth = wm.getDefaultDisplay().getWidth();
         screenHeight = wm.getDefaultDisplay().getHeight();
@@ -245,5 +253,15 @@ public class MainActivity extends Activity {
             intent.putExtra("pic",data.getExtras());
             startActivity(intent);
         }
+    }
+
+    public DraweeController buildController(int res, final DraweeController oldController) {
+        Uri uri = Uri.parse("res://xiaoying/" + res);
+        DraweeController controller = Fresco.newDraweeControllerBuilder()
+                .setUri(uri)
+                .setOldController(oldController)
+                .setAutoPlayAnimations(true)
+                .build();
+        return controller;
     }
 }

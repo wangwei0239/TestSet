@@ -2,20 +2,25 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center">
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg_clock">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/bg_good"
         />
     
     <TextView
+        android:textColor="@android:color/white"
         android:layout_width="wrap_content"
+        android:textSize="25dp"
         android:layout_height="wrap_content"
-        android:text="棒棒哒!!\n犒赏你一下"
+        android:text="棒棒哒!!\n\n犒赏你一下"
         android:gravity="center"/>
     <ImageView
+        android:src="@drawable/bg_awsome"
         android:layout_width="match_parent"
         android:layout_height="300dp" />
 
