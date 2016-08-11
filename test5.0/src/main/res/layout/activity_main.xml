@@ -26,4 +26,13 @@
         android:background="@android:color/holo_blue_light"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_marginTop="40dp"
+        android:textColor="@android:color/white"
+        android:text="haha"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"/>
 </LinearLayout>

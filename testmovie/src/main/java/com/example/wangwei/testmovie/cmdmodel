@@ -1,0 +1,79 @@
+package com.emotibot.xiaoying.Models;
+
+import java.util.ArrayList;
+
+/**
+ * Created by wangwei on 16/7/20.
+ */
+public class MovieCMDModel {
+
+    public static final String CITY_SOURCE_MEMORY = "memory";
+    public static final String CITY_SOURCE_QUESTION = "question";
+//    public static final String TEST_JSON = "[CMD]:{\"type\":\"movie\",\"city_id\":0,\"city_source\":\"memory\",\"released\": true,\"sort_by_score\": true,\"film_stars\": [\"刘德华\",\"周润发\"],\"answer\":[\"咻咻~小影光速为你找到了song，快来听听吧~\",\"效果不错吧\"]}";
+//    public static final String TEST_JSON = "[CMD]:{\"type\":\"movie\",\"city_id\":0,\"city_source\":\"memory\",\"released\": true,\"sort_by_score\": false,\"film_stars\": [\"周杰伦\",\"周润发\"],\"answer\":[\"咻咻~小影光速为你找到了song，快来听听吧~\",\"效果不错吧\"]}";
+    public static final String TEST_JSON = "[CMD]:{\"type\":\"movie\",\"city_id\":-1,\"city_source\":\"\",\"released\": false,\"sort_by_score\":true,\"film_stars\":[],\"answer\":[\"近期这些电影将上映，看看有没有喜欢的\",\"haha\",\"heihei\"]}";
+
+    private String type;
+    private int city_id;
+    private String city_source;
+    private boolean released;
+    private boolean sort_by_score;
+    private ArrayList<String> film_stars;
+    private ArrayList<String> answer;
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public int getCity_id() {
+        return city_id;
+    }
+
+    public void setCity_id(int city_id) {
+        this.city_id = city_id;
+    }
+
+    public String getCity_source() {
+        return city_source;
+    }
+
+    public void setCity_source(String city_source) {
+        this.city_source = city_source;
+    }
+
+    public boolean isReleased() {
+        return released;
+    }
+
+    public void setReleased(boolean released) {
+        this.released = released;
+    }
+
+    public boolean isSort_by_score() {
+        return sort_by_score;
+    }
+
+    public void setSort_by_score(boolean sort_by_score) {
+        this.sort_by_score = sort_by_score;
+    }
+
+    public ArrayList<String> getFilm_stars() {
+        return film_stars;
+    }
+
+    public void setFilm_stars(ArrayList<String> film_stars) {
+        this.film_stars = film_stars;
+    }
+
+    public ArrayList<String> getAnswer() {
+        return answer;
+    }
+
+    public void setAnswer(ArrayList<String> answer) {
+        this.answer = answer;
+    }
+}

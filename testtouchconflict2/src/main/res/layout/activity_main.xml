@@ -1,31 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.example.wangwei.testtouchconflict2.MyScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     tools:context="com.example.wangwei.testtouchconflict2.MainActivity">
-
-    <ScrollView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="1000dp">
-        <LinearLayout
+        android:layout_height="match_parent">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp"
             android:layout_width="match_parent"
-            android:layout_height="500dp"
-            android:orientation="horizontal">
-            <ListView
-                android:id="@+id/lv1"
-                android:layout_width="400dp"
-                android:layout_height="1000dp"></ListView>
-            <ListView
-                android:id="@+id/lv2"
-                android:layout_width="400dp"
-                android:layout_height="300dp"></ListView>
-            <ListView
-                android:id="@+id/lv3"
-                android:layout_width="400dp"
-                android:layout_height="300dp"></ListView>
-        </LinearLayout>
+            android:layout_height="match_parent">
+        </android.support.v4.view.ViewPager>
+    </RelativeLayout>
 
-    </ScrollView>
+    <FrameLayout
+        android:layout_gravity = "start"
+        android:layout_width="200dp"
+        android:background="#8394"
+        android:layout_height="match_parent"></FrameLayout>
 
-</com.example.wangwei.testtouchconflict2.MyScrollView>
+
+</android.support.v4.widget.DrawerLayout>

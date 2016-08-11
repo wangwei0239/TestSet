@@ -1,0 +1,83 @@
+package com.emotibot.xiaoying.Functions.main_page;
+
+import android.content.Context;
+import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+import com.emotibot.xiaoying.Functions.movie.MovieFunction;
+import com.emotibot.xiaoying.Models.MovieModel;
+import com.emotibot.xiaoying.R;
+
+import org.xutils.x;
+
+import java.util.List;
+import java.util.zip.Inflater;
+
+/**
+ * Created by wangwei on 16/7/19.
+ */
+public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
+
+    private List<MovieModel.MovieDetailModel> mDatas;
+    private LayoutInflater inflater;
+    private Context mContext;
+    private int cityCode;
+
+    public MovieAdapter(Context context,List<MovieModel.MovieDetailModel> mDatas,int cityCode){
+        mContext = context;
+        inflater = LayoutInflater.from(mContext);
+        this.mDatas = mDatas;
+        this.cityCode = cityCode;
+    }
+
+    @Override
+    public MovieAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View view = inflater.inflate(R.layout.adapter_from_movie_list_item_layout,parent,false);
+        ViewHolder holder = new ViewHolder(view);
+        return holder;
+    }
+
+    @Override
+    public void onBindViewHolder(MovieAdapter.ViewHolder holder, final int position) {
+        x.image().bind(holder.movieCover,mDatas.get(position).getImage());
+        holder.movieTitle.setText(mDatas.get(position).getName());
+        int score = mDatas.get(position).getScore();
+        float f_score = (float)score/(float)10;
+        holder.movieScore.setText(String.valueOf(f_score));
+        holder.itemLy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                MovieFunction.getInstance((MainPageActivity) mContext).requestMovieDetailInfor(cityCode,mDatas.get(position).getFrom().getProvider_id(),mDatas.get(position).getMovie_id());
+            }
+        });
+    }
+
+    @Override
+    public int getItemCount() {
+        return mDatas.size();
+    }
+
+    public class ViewHolder extends RecyclerView.ViewHolder {
+
+        private ImageView movieCover;
+        private TextView movieTitle;
+        private TextView movieScore;
+        private LinearLayout itemLy;
+
+        public ViewHolder(View itemView) {
+            super(itemView);
+            itemLy = (LinearLayout) itemView.findViewById(R.id.ly_item);
+            movieCover = (ImageView) itemView.findViewById(R.id.iv_movie_cover);
+            movieTitle = (TextView) itemView.findViewById(R.id.tv_title);
+            movieScore = (TextView) itemView.findViewById(R.id.tv_score);
+        }
+    }
+}
+
+
+

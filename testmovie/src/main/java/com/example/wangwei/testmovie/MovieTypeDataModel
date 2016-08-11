@@ -1,0 +1,34 @@
+package com.emotibot.xiaoying.Models;
+
+/**
+ * Created by wangwei on 16/7/21.
+ */
+public class MovieTypeDataModel {
+    private String type;
+    private int cityCode;
+    private String data;
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public int getCityCode() {
+        return cityCode;
+    }
+
+    public void setCityCode(int cityCode) {
+        this.cityCode = cityCode;
+    }
+
+    public String getData() {
+        return data;
+    }
+
+    public void setData(String data) {
+        this.data = data;
+    }
+}

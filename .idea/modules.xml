@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/lockscreendemo/lockscreendemo.iml" filepath="$PROJECT_DIR$/lockscreendemo/lockscreendemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/test5.0/test5.0.iml" filepath="$PROJECT_DIR$/test5.0/test5.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/test6.0/test6.0.iml" filepath="$PROJECT_DIR$/test6.0/test6.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testStatusBarColorbackgroundcolorselector/testbackgroundcolorselector.iml" filepath="$PROJECT_DIR$/testStatusBarColorbackgroundcolorselector/testbackgroundcolorselector.iml" />
       <module fileurl="file://$PROJECT_DIR$/testalarmmanager/testalarmmanager.iml" filepath="$PROJECT_DIR$/testalarmmanager/testalarmmanager.iml" />
       <module fileurl="file://$PROJECT_DIR$/testbinder/testbinder.iml" filepath="$PROJECT_DIR$/testbinder/testbinder.iml" />
       <module fileurl="file://$PROJECT_DIR$/testcustomview/testcustomview.iml" filepath="$PROJECT_DIR$/testcustomview/testcustomview.iml" />
@@ -20,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/testmeasureanimation/testmeasureanimation.iml" filepath="$PROJECT_DIR$/testmeasureanimation/testmeasureanimation.iml" />
       <module fileurl="file://$PROJECT_DIR$/testmessager/testmessager.iml" filepath="$PROJECT_DIR$/testmessager/testmessager.iml" />
       <module fileurl="file://$PROJECT_DIR$/testnewcamera/testnewcamera.iml" filepath="$PROJECT_DIR$/testnewcamera/testnewcamera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testobservablescrollview/testobservablescrollview.iml" filepath="$PROJECT_DIR$/testobservablescrollview/testobservablescrollview.iml" />
       <module fileurl="file://$PROJECT_DIR$/testrecyclerview/testrecyclerview.iml" filepath="$PROJECT_DIR$/testrecyclerview/testrecyclerview.iml" />
       <module fileurl="file://$PROJECT_DIR$/testscrollbyto/testscrollbyto.iml" filepath="$PROJECT_DIR$/testscrollbyto/testscrollbyto.iml" />
       <module fileurl="file://$PROJECT_DIR$/testkeyboard/testshowkeyboard.iml" filepath="$PROJECT_DIR$/testkeyboard/testshowkeyboard.iml" />
