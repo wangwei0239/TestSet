@@ -7,8 +7,6 @@ import android.text.TextPaint;
 import android.text.style.ClickableSpan;
 import android.view.View;
 
-import java.util.ArrayList;
-
 /**
  * Created by wangwei on 16/8/3.
  */

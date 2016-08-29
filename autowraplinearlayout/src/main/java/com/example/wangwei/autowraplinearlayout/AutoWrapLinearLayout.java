@@ -2,10 +2,7 @@ package com.example.wangwei.autowraplinearlayout;
 
 import android.content.Context;
 import android.util.AttributeSet;
-import android.view.View;
 import android.widget.FrameLayout;
-
-import java.util.ArrayList;
 
 /**
  * Created by wangwei on 16/7/27.

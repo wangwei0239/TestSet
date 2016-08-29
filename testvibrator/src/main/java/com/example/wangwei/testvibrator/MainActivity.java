@@ -10,11 +10,9 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Vibrator;
 import android.widget.CompoundButton;
+import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.TextView;
 import android.widget.ToggleButton;
-import android.widget.CompoundButton.OnCheckedChangeListener;
-
-import java.io.File;
 
 public class MainActivity extends Activity {
     private Vibrator vibrator = null;
