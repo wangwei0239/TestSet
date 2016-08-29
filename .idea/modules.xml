@@ -5,18 +5,14 @@
       <module fileurl="file://$PROJECT_DIR$/TestSet.iml" filepath="$PROJECT_DIR$/TestSet.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestTouchConflict/TestTouchConflict.iml" filepath="$PROJECT_DIR$/TestTouchConflict/TestTouchConflict.iml" />
       <module fileurl="file://$PROJECT_DIR$/createlayerswitchlayout/createlayerswitchlayout.iml" filepath="$PROJECT_DIR$/createlayerswitchlayout/createlayerswitchlayout.iml" />
-      <module fileurl="file://$PROJECT_DIR$/createlayerswitchlayout/createlayerswitchlayout.iml" filepath="$PROJECT_DIR$/createlayerswitchlayout/createlayerswitchlayout.iml" />
-      <module fileurl="file://$PROJECT_DIR$/createplusrotateanimation/createplusrotateanimation.iml" filepath="$PROJECT_DIR$/createplusrotateanimation/createplusrotateanimation.iml" />
       <module fileurl="file://$PROJECT_DIR$/createplusrotateanimation/createplusrotateanimation.iml" filepath="$PROJECT_DIR$/createplusrotateanimation/createplusrotateanimation.iml" />
       <module fileurl="file://$PROJECT_DIR$/imageprocess/imageprocess.iml" filepath="$PROJECT_DIR$/imageprocess/imageprocess.iml" />
       <module fileurl="file://$PROJECT_DIR$/lockscreendemo/lockscreendemo.iml" filepath="$PROJECT_DIR$/lockscreendemo/lockscreendemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/test5.0/test5.0.iml" filepath="$PROJECT_DIR$/test5.0/test5.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/test6.0/test6.0.iml" filepath="$PROJECT_DIR$/test6.0/test6.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/testStatusBarColorbackgroundcolorselector/testStatusBarColorbackgroundcolorselector.iml" filepath="$PROJECT_DIR$/testStatusBarColorbackgroundcolorselector/testStatusBarColorbackgroundcolorselector.iml" />
-      <module fileurl="file://$PROJECT_DIR$/testStatusBarColorbackgroundcolorselector/testStatusBarColorbackgroundcolorselector.iml" filepath="$PROJECT_DIR$/testStatusBarColorbackgroundcolorselector/testStatusBarColorbackgroundcolorselector.iml" />
       <module fileurl="file://$PROJECT_DIR$/testalarmmanager/testalarmmanager.iml" filepath="$PROJECT_DIR$/testalarmmanager/testalarmmanager.iml" />
       <module fileurl="file://$PROJECT_DIR$/testStatusBarColorbackgroundcolorselector/testbackgroundcolorselector.iml" filepath="$PROJECT_DIR$/testStatusBarColorbackgroundcolorselector/testbackgroundcolorselector.iml" />
-      <module fileurl="file://$PROJECT_DIR$/testbaiduvoice/testbaiduvoice.iml" filepath="$PROJECT_DIR$/testbaiduvoice/testbaiduvoice.iml" />
       <module fileurl="file://$PROJECT_DIR$/testbaiduvoice/testbaiduvoice.iml" filepath="$PROJECT_DIR$/testbaiduvoice/testbaiduvoice.iml" />
       <module fileurl="file://$PROJECT_DIR$/testbinder/testbinder.iml" filepath="$PROJECT_DIR$/testbinder/testbinder.iml" />
       <module fileurl="file://$PROJECT_DIR$/testcustomview/testcustomview.iml" filepath="$PROJECT_DIR$/testcustomview/testcustomview.iml" />
@@ -27,25 +23,20 @@
       <module fileurl="file://$PROJECT_DIR$/testifly/testifly.iml" filepath="$PROJECT_DIR$/testifly/testifly.iml" />
       <module fileurl="file://$PROJECT_DIR$/testkeyboard/testkeyboard.iml" filepath="$PROJECT_DIR$/testkeyboard/testkeyboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/testlaterdismissdialog/testlaterdismissdialog.iml" filepath="$PROJECT_DIR$/testlaterdismissdialog/testlaterdismissdialog.iml" />
-      <module fileurl="file://$PROJECT_DIR$/testlaterdismissdialog/testlaterdismissdialog.iml" filepath="$PROJECT_DIR$/testlaterdismissdialog/testlaterdismissdialog.iml" />
-      <module fileurl="file://$PROJECT_DIR$/testlistviewlayout/testlistviewlayout.iml" filepath="$PROJECT_DIR$/testlistviewlayout/testlistviewlayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/testlistviewlayout/testlistviewlayout.iml" filepath="$PROJECT_DIR$/testlistviewlayout/testlistviewlayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/testmeasureanimation/testmeasureanimation.iml" filepath="$PROJECT_DIR$/testmeasureanimation/testmeasureanimation.iml" />
       <module fileurl="file://$PROJECT_DIR$/testmessager/testmessager.iml" filepath="$PROJECT_DIR$/testmessager/testmessager.iml" />
       <module fileurl="file://$PROJECT_DIR$/testnewcamera/testnewcamera.iml" filepath="$PROJECT_DIR$/testnewcamera/testnewcamera.iml" />
       <module fileurl="file://$PROJECT_DIR$/testobservablescrollview/testobservablescrollview.iml" filepath="$PROJECT_DIR$/testobservablescrollview/testobservablescrollview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/testobservablescrollview/testobservablescrollview.iml" filepath="$PROJECT_DIR$/testobservablescrollview/testobservablescrollview.iml" />
       <module fileurl="file://$PROJECT_DIR$/testrecyclerview/testrecyclerview.iml" filepath="$PROJECT_DIR$/testrecyclerview/testrecyclerview.iml" />
       <module fileurl="file://$PROJECT_DIR$/testscrollbyto/testscrollbyto.iml" filepath="$PROJECT_DIR$/testscrollbyto/testscrollbyto.iml" />
       <module fileurl="file://$PROJECT_DIR$/testkeyboard/testshowkeyboard.iml" filepath="$PROJECT_DIR$/testkeyboard/testshowkeyboard.iml" />
-      <module fileurl="file://$PROJECT_DIR$/testsingleton/testsingleton.iml" filepath="$PROJECT_DIR$/testsingleton/testsingleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/testsingleton/testsingleton.iml" filepath="$PROJECT_DIR$/testsingleton/testsingleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/testsoftinputmodel/testsoftinputmodel.iml" filepath="$PROJECT_DIR$/testsoftinputmodel/testsoftinputmodel.iml" />
       <module fileurl="file://$PROJECT_DIR$/testtime/testtime.iml" filepath="$PROJECT_DIR$/testtime/testtime.iml" />
       <module fileurl="file://$PROJECT_DIR$/testtouchconflict2/testtouchconflict2.iml" filepath="$PROJECT_DIR$/testtouchconflict2/testtouchconflict2.iml" />
       <module fileurl="file://$PROJECT_DIR$/testview/testview.iml" filepath="$PROJECT_DIR$/testview/testview.iml" />
       <module fileurl="file://$PROJECT_DIR$/testvoice/testvoice.iml" filepath="$PROJECT_DIR$/testvoice/testvoice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/testxutils/testxutils.iml" filepath="$PROJECT_DIR$/testxutils/testxutils.iml" />
       <module fileurl="file://$PROJECT_DIR$/testxutils/testxutils.iml" filepath="$PROJECT_DIR$/testxutils/testxutils.iml" />
       <module fileurl="file://$PROJECT_DIR$/voicedetect/voicedetect.iml" filepath="$PROJECT_DIR$/voicedetect/voicedetect.iml" />
       <module fileurl="file://$PROJECT_DIR$/voiceinteractive/voiceinteractive.iml" filepath="$PROJECT_DIR$/voiceinteractive/voiceinteractive.iml" />
