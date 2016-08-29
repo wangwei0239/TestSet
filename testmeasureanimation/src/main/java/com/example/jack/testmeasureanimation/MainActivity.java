@@ -5,6 +5,7 @@ import android.animation.ValueAnimator;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                ly.setVisibility(View.VISIBLE);
                 System.out.println("before height:"+ly.getMeasuredHeight());
                 int widthSpec = View.MeasureSpec.makeMeasureSpec((1<<30)-1, View.MeasureSpec.AT_MOST);
                 int heightSpec = View.MeasureSpec.makeMeasureSpec((1<<30)-1, View.MeasureSpec.AT_MOST);
@@ -35,14 +37,14 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onAnimationUpdate(ValueAnimator animation) {
                         int value = (int) animation.getAnimatedValue();
-                        RelativeLayout.LayoutParams lp = (RelativeLayout.LayoutParams) ly.getLayoutParams();
+                        ViewGroup.LayoutParams lp = ly.getLayoutParams();
                         lp.height = value;
                         ly.setLayoutParams(lp);
                     }
                 });
                 animator.setDuration(2000);
                 animator.start();
-//                ObjectAnimator objectAnimator =  ObjectAnimator.ofFloat(ly,"layout_height",10,1000);
+//                ObjectAnimator objectAnimator =  ObjectAnimator.ofFloat(ly,"Bottom",10,1000);
 //                objectAnimator.setDuration(2000);
 //                objectAnimator.start();
             }

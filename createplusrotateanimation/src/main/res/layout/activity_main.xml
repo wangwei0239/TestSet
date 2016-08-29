@@ -7,14 +7,33 @@
 
     <RelativeLayout
         android:id="@+id/morely"
+        android:background="#3000"
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="50dp">
+
         <ImageView
+            android:id="@+id/iv_1"
+            android:layout_alignParentTop="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <ImageView
+            android:id="@+id/iv_2"
+            android:layout_below="@+id/iv_1"
+            android:layout_marginTop="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher"/>
+
+
+        <ImageView
+            android:layout_alignParentBottom="true"
             android:id="@+id/iv"
             android:clickable="true"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:src="@drawable/btn_more_clicked"/>
     </RelativeLayout>
 </RelativeLayout>
