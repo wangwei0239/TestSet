@@ -37,6 +37,7 @@
       <module fileurl="file://$PROJECT_DIR$/testtouchconflict2/testtouchconflict2.iml" filepath="$PROJECT_DIR$/testtouchconflict2/testtouchconflict2.iml" />
       <module fileurl="file://$PROJECT_DIR$/testview/testview.iml" filepath="$PROJECT_DIR$/testview/testview.iml" />
       <module fileurl="file://$PROJECT_DIR$/testvoice/testvoice.iml" filepath="$PROJECT_DIR$/testvoice/testvoice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testwechatimage/testwechatimage.iml" filepath="$PROJECT_DIR$/testwechatimage/testwechatimage.iml" />
       <module fileurl="file://$PROJECT_DIR$/testxutils/testxutils.iml" filepath="$PROJECT_DIR$/testxutils/testxutils.iml" />
       <module fileurl="file://$PROJECT_DIR$/voicedetect/voicedetect.iml" filepath="$PROJECT_DIR$/voicedetect/voicedetect.iml" />
       <module fileurl="file://$PROJECT_DIR$/voiceinteractive/voiceinteractive.iml" filepath="$PROJECT_DIR$/voiceinteractive/voiceinteractive.iml" />
