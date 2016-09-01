@@ -20,6 +20,7 @@
             <option value="$PROJECT_DIR$/testalarmmanager" />
             <option value="$PROJECT_DIR$/testbaiduvoice" />
             <option value="$PROJECT_DIR$/testbinder" />
+            <option value="$PROJECT_DIR$/testcamerapicsize" />
             <option value="$PROJECT_DIR$/testcustomview" />
             <option value="$PROJECT_DIR$/testdb" />
             <option value="$PROJECT_DIR$/testfragement" />
@@ -35,6 +36,7 @@
             <option value="$PROJECT_DIR$/testobservablescrollview" />
             <option value="$PROJECT_DIR$/testrecyclerview" />
             <option value="$PROJECT_DIR$/testscrollbyto" />
+            <option value="$PROJECT_DIR$/testsetalarmclock" />
             <option value="$PROJECT_DIR$/testsingleton" />
             <option value="$PROJECT_DIR$/testsoftinputmodel" />
             <option value="$PROJECT_DIR$/testtime" />
@@ -63,6 +65,7 @@
             <option value="$PROJECT_DIR$/testalarmmanager" />
             <option value="$PROJECT_DIR$/testbaiduvoice" />
             <option value="$PROJECT_DIR$/testbinder" />
+            <option value="$PROJECT_DIR$/testcamerapicsize" />
             <option value="$PROJECT_DIR$/testcustomview" />
             <option value="$PROJECT_DIR$/testdb" />
             <option value="$PROJECT_DIR$/testfragement" />
@@ -78,6 +81,7 @@
             <option value="$PROJECT_DIR$/testobservablescrollview" />
             <option value="$PROJECT_DIR$/testrecyclerview" />
             <option value="$PROJECT_DIR$/testscrollbyto" />
+            <option value="$PROJECT_DIR$/testsetalarmclock" />
             <option value="$PROJECT_DIR$/testsingleton" />
             <option value="$PROJECT_DIR$/testsoftinputmodel" />
             <option value="$PROJECT_DIR$/testtime" />

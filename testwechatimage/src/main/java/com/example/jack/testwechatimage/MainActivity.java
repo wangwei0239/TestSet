@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
 
     public static Bitmap getRoundCornerImage(Bitmap bitmap_bg,Bitmap bitmap_in)
     {
-        System.out.println("width:"+bitmap_in.getWidth()+" height:"+bitmap_in.getHeight());
         Bitmap roundConcerImage = Bitmap.createBitmap(bitmap_in.getWidth(), bitmap_in.getHeight(), Bitmap.Config.ARGB_8888);
         Canvas canvas = new Canvas(roundConcerImage);
         Paint paint = new Paint();
