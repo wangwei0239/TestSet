@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+               android:shape="rectangle" >
+
+            <corners
+                android:topLeftRadius="20dp"
+                android:topRightRadius="20dp" />
+
+            <solid android:color="#dedede" />
+
+        </shape>
+    </item>
+
+    <item android:top="10dp" android:left="10dp" android:right="10dp">
+        <bitmap
+        android:mipMap="true"
+        android:src="@mipmap/bg_beauty_filter2"
+            android:tileMode="repeat"/>
+    </item>
+
+
+</layer-list>

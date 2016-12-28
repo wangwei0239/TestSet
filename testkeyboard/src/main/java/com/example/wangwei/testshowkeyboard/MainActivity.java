@@ -1,13 +1,9 @@
 package com.example.wangwei.testshowkeyboard;
 
-import android.graphics.Rect;
-import android.hardware.input.InputManager;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.view.ViewTreeObserver;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
@@ -89,7 +85,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Log.i(TAG, "KeyBoardHeight:" + keyBoardHeight);
                 lp.height = keyBoardHeight;
 //                fl.setLayoutParams(lp);
-                hideKeyboard();
+//                hideKeyboard();
                 break;
             case R.id.textSpace:
                 keyBoardHeight = SystemUtils.getKeyboardHeight(this);
