@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     int keyBoardHeight = 0;
     FrameLayout fl;
     EditText et;
+    RelativeLayout rootView;
     static ArrayList<String> list = new ArrayList<>();
 
     static {
@@ -48,6 +49,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         lv.setAdapter(adapter);
         sendBtn = (Button) findViewById(R.id.sendBtn);
         fl = (FrameLayout) findViewById(R.id.fl);
+
+
+
         sendBtn.setOnClickListener(this);
 
         final RelativeLayout myLayout =
@@ -78,19 +82,33 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        RelativeLayout.LayoutParams lp = (RelativeLayout.LayoutParams) fl.getLayoutParams();
+        final RelativeLayout.LayoutParams lp = (RelativeLayout.LayoutParams) fl.getLayoutParams();
         switch (v.getId()) {
             case R.id.sendBtn:
                 Log.i(TAG, "KeyBoard:" + isKeyShows());
                 Log.i(TAG, "KeyBoardHeight:" + keyBoardHeight);
                 lp.height = keyBoardHeight;
-//                fl.setLayoutParams(lp);
-//                hideKeyboard();
+                fl.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        fl.setLayoutParams(lp);
+                    }
+                },200);
+
+                hideKeyboard();
                 break;
             case R.id.textSpace:
-                keyBoardHeight = SystemUtils.getKeyboardHeight(this);
+                fl.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+
+                    }
+                },90);
+
+                keyBoardHeight = SystemUtils.getKeyboardHeight(MainActivity.this);
                 lp.height = 0;
-//                fl.setLayoutParams(lp);
+                fl.setLayoutParams(lp);
+
                 break;
         }
     }

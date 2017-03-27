@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.assignment.testmarquee.MainActivity">
+
+    <!--<com.rockerhieu.emojicon.EmojiconTextView-->
+    <!--android:id="@+id/tv"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:textSize="25sp"-->
+        <!--android:text="😙😝😜🤗😍 😘😂😇😌🙃"/>-->
+
+    <com.gongwen.marqueen.MarqueeView
+        android:id="@+id/tv"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#888"
+        ></com.gongwen.marqueen.MarqueeView>
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_toLeftOf="@+id/btn"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_alignParentRight="true"
+        android:id="@+id/btn"
+        android:text="Send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

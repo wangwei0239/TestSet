@@ -5,13 +5,14 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="D:\Android Studio\gradle\gradle-2.14.1" />
+        <option name="gradleHome" value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.2-all" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/TestTouchConflict" />
             <option value="$PROJECT_DIR$/createlayerswitchlayout" />
             <option value="$PROJECT_DIR$/createplusrotateanimation" />
+            <option value="$PROJECT_DIR$/cutimage" />
             <option value="$PROJECT_DIR$/imageprocess" />
             <option value="$PROJECT_DIR$/liveblur" />
             <option value="$PROJECT_DIR$/lockscreendemo" />
@@ -20,40 +21,58 @@
             <option value="$PROJECT_DIR$/testStatusBarColorbackgroundcolorselector" />
             <option value="$PROJECT_DIR$/testactivitylifecycle" />
             <option value="$PROJECT_DIR$/testalarmmanager" />
+            <option value="$PROJECT_DIR$/testanim" />
+            <option value="$PROJECT_DIR$/testanr" />
             <option value="$PROJECT_DIR$/testaudiofocus" />
             <option value="$PROJECT_DIR$/testaudiofocus2" />
             <option value="$PROJECT_DIR$/testaudiofocus3" />
+            <option value="$PROJECT_DIR$/testaysnctask" />
             <option value="$PROJECT_DIR$/testbaiduvoice" />
             <option value="$PROJECT_DIR$/testbinder" />
             <option value="$PROJECT_DIR$/testcamerapicsize" />
+            <option value="$PROJECT_DIR$/testcircleview" />
+            <option value="$PROJECT_DIR$/testconstrainlayout" />
             <option value="$PROJECT_DIR$/testcustomview" />
             <option value="$PROJECT_DIR$/testdb" />
+            <option value="$PROJECT_DIR$/testedittext" />
+            <option value="$PROJECT_DIR$/testemojirain" />
             <option value="$PROJECT_DIR$/testfragement" />
             <option value="$PROJECT_DIR$/testfresco" />
             <option value="$PROJECT_DIR$/testgeneralviewholder" />
+            <option value="$PROJECT_DIR$/testgetphonenumber" />
+            <option value="$PROJECT_DIR$/testgridview" />
             <option value="$PROJECT_DIR$/testgson" />
             <option value="$PROJECT_DIR$/testheadphoneplugin" />
             <option value="$PROJECT_DIR$/testifly" />
             <option value="$PROJECT_DIR$/testimei" />
             <option value="$PROJECT_DIR$/testkeyboard" />
             <option value="$PROJECT_DIR$/testlaterdismissdialog" />
+            <option value="$PROJECT_DIR$/testlistviewadditemanim" />
             <option value="$PROJECT_DIR$/testlistviewlayout" />
+            <option value="$PROJECT_DIR$/testmanipulateexcel2" />
+            <option value="$PROJECT_DIR$/testmarquee" />
             <option value="$PROJECT_DIR$/testmeasureanimation" />
+            <option value="$PROJECT_DIR$/testmediaplayer" />
             <option value="$PROJECT_DIR$/testmessager" />
+            <option value="$PROJECT_DIR$/testmusic" />
             <option value="$PROJECT_DIR$/testnewcamera" />
             <option value="$PROJECT_DIR$/testobservablescrollview" />
             <option value="$PROJECT_DIR$/testokhttp" />
             <option value="$PROJECT_DIR$/testormlite" />
+            <option value="$PROJECT_DIR$/testreadfile" />
             <option value="$PROJECT_DIR$/testrecyclerview" />
             <option value="$PROJECT_DIR$/testscrollbyto" />
+            <option value="$PROJECT_DIR$/testsendmsg" />
             <option value="$PROJECT_DIR$/testsetalarmclock" />
             <option value="$PROJECT_DIR$/testsingleton" />
             <option value="$PROJECT_DIR$/testsoftinputmodel" />
             <option value="$PROJECT_DIR$/testtime" />
             <option value="$PROJECT_DIR$/testtouchconflict2" />
+            <option value="$PROJECT_DIR$/testuuid" />
             <option value="$PROJECT_DIR$/testview" />
             <option value="$PROJECT_DIR$/testvoice" />
             <option value="$PROJECT_DIR$/testvolley" />
+            <option value="$PROJECT_DIR$/testwechatcamera" />
             <option value="$PROJECT_DIR$/testwechatimage" />
             <option value="$PROJECT_DIR$/testxiamisdk" />
             <option value="$PROJECT_DIR$/testxutils" />

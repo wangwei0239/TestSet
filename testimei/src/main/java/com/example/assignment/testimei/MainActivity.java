@@ -3,8 +3,7 @@ package com.example.assignment.testimei;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.telephony.TelephonyManager;
-
-import static android.content.Context.TELEPHONY_SERVICE;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,5 +14,6 @@ public class MainActivity extends AppCompatActivity {
         String id = ((TelephonyManager) getSystemService(TELEPHONY_SERVICE))
                 .getDeviceId();
         System.out.println("IMEI:"+id);
+        ((TextView)findViewById(R.id.tv)).setText("IMEI:"+id);
     }
 }

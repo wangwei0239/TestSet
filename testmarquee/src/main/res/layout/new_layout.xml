@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+              <com.example.assignment.testmarquee.MyMarquee
+                    android:id="@+id/mymq"
+                    android:background="#0AD6C4"
+                  android:layout_width="match_parent"
+                  android:layout_height="50dp">
+                  <com.rockerhieu.emojicon.EmojiconTextView
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:gravity="center"
+                      android:textColor="@android:color/white"
+                      android:textSize="20sp"
+                      android:text="Emotibot"/>
+                  <com.rockerhieu.emojicon.EmojiconTextView
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:gravity="center"
+                      android:textColor="@android:color/white"
+                      android:textSize="20sp"
+                      android:text="😙😝😜🤗😍 😘😂😇😌🙃"/>
+
+              </com.example.assignment.testmarquee.MyMarquee>
+
+              <Button
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="btn"
+                  android:layout_alignParentBottom="true"
+                  android:id="@+id/btn"/>
+
+</RelativeLayout>
