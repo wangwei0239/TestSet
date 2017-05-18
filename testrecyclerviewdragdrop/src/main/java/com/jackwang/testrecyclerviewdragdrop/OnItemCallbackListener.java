@@ -5,4 +5,8 @@ package com.jackwang.testrecyclerviewdragdrop;
  */
 
 public interface OnItemCallbackListener {
+
+    void onMove(int fromPosition, int toPosition);
+    void onSwipe(int position);
+
 }

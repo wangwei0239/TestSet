@@ -11,7 +11,7 @@ import java.util.List;
  * Created by wangwei on 17/3/8.
  */
 @Table(name="music")
-public class Music1 {
+public class Music {
     @Column(name = "id", isId = true)
     private long id;
     @Column(name = "name")

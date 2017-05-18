@@ -1,4 +1,4 @@
-package com.soundai.smartboxlite.utils;
+package com.jackwang.testretrofit;
 
 /**
  * Created by wangwei on 17/4/11.

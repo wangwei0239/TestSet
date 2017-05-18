@@ -7,4 +7,17 @@ import android.app.Application;
  */
 
 public class MyApplication extends Application {
+
+    private ActivityLifeCycleHelper mHelper;
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        mHelper = new ActivityLifeCycleHelper();
+        registerActivityLifecycleCallbacks(mHelper);
+    }
+
+    public ActivityLifeCycleHelper getHelper() {
+        return mHelper;
+    }
 }

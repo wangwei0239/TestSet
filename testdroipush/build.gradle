@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.jackwang.testdroipush"
-        minSdkVersion 12
+        minSdkVersion 19
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
@@ -22,12 +22,26 @@ android {
     }
 }
 
+repositories {
+    jcenter()
+    // DroiCore SDK来源地址
+    maven {
+        url "https://github.com/DroiBaaS/DroiBaaS-SDK-Android/raw/master/"
+    }
+}
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+    compile 'com.droi.sdk:Core:+'
+    compile 'com.droi.sdk:push:+'
+    compile 'com.droi.sdk:Utility:+'
+    compile 'com.android.support:support-v4:25.1.1'
     compile 'com.android.support:appcompat-v7:25.1.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-beta4'
+    // DroiCore SDK使用的3rd http函数库
+    compile 'com.squareup.okhttp3:okhttp:3.0.1'
     testCompile 'junit:junit:4.12'
 }

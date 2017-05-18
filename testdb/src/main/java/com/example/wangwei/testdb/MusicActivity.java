@@ -24,17 +24,17 @@ public class MusicActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         app = (AppApplication) getApplication();
         db = x.getDb(app.daoConfig);
-//        Music music = new Music();
-//        music.setName("王为");
-//        music.setSinger("wangiwei");
-//        music.setType("rock,classic,blue");
-//        try {
-//            db.save(music);
-//            li("finish");
-//        } catch (DbException e) {
-//            e.printStackTrace();
-//            li("error");
-//        }
+        Music music = new Music();
+        music.setName("王为");
+        music.setSinger("wangiwei");
+        music.setType("rock,classic,blue");
+        try {
+            db.save(music);
+            li("finish");
+        } catch (DbException e) {
+            e.printStackTrace();
+            li("error");
+        }
 
         try {
             Music m = db.selector(Music.class).findFirst();

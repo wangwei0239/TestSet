@@ -1,4 +1,4 @@
-package com.soundai.smartboxlite.utils;
+package com.jackwang.testretrofit;
 
 /**
  * Created by wangwei on 17/4/11.
@@ -6,7 +6,8 @@ package com.soundai.smartboxlite.utils;
 
 public class URLConstants {
     public static final String HOST= "http://idc.emotibot.com";
-    public static final String BASE_API= HOST+"/api/ApiKey/openapi.php";
+    public static final String API_PATH= "/api/ApiKey/openapi.php";
+    public static final String BASE_API= HOST+API_PATH;
 
 
     public static final String PARAM_NAME_CMD = "cmd";

@@ -1,4 +1,4 @@
-package com.soundai.smartboxlite.data.model;
+package com.jackwang.testretrofit;
 
 import java.io.Serializable;
 import java.util.List;
@@ -108,5 +108,26 @@ public class User implements Serializable{
         public void setData(List<?> data) {
             this.data = data;
         }
+
+        @Override
+        public String toString() {
+            return "DataBean{" +
+                    "type='" + type + '\'' +
+                    ", cmd='" + cmd + '\'' +
+                    ", value='" + value + '\'' +
+                    ", data=" + data +
+                    '}';
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "returnX=" + returnX +
+                ", return_message='" + return_message + '\'' +
+                ", status=" + status +
+                ", data=" + data +
+                ", emotion=" + emotion +
+                '}';
     }
 }
