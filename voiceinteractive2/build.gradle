@@ -27,7 +27,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile 'com.google.code.gson:gson:2.2.4'
     compile 'org.xutils:xutils:3.3.34'
-    compile 'com.facebook.fresco:fresco:0.9.0+'
+    compile 'com.facebook.fresco:fresco:0.12.0'
 }
 
 

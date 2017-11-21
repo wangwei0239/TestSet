@@ -13,7 +13,7 @@ import rx.functions.Func1;
 
 public class MainActivity extends AppCompatActivity {
 
-    public final String TAG = "TAG";
+    public final String TAG = "RX";
 
     private Button button;
 
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onNext(Course s) {
-                Log.d(TAG, "name:"+s.getCourseName());
+                Log.i(TAG, "name:"+s.getCourseName());
             }
         };
 
